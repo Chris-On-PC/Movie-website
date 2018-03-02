@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need python 2.7 to sun this code.
+You will need python 2.7 to run this code.
 
 
 ### Installing
