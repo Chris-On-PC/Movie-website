@@ -22,10 +22,6 @@ Python can be installed from the python default website.
 To run the code, provide the information to your favourite movie to a new instance.
 
 
-```
-Give an example
-```
-
 toy_story = media.Movie("Toy Story",
                         "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg",
@@ -34,4 +30,4 @@ toy_story = media.Movie("Toy Story",
 
  Instance_name = media.Movie("Movie name", "Movie discription", 								"Poster image url", "movie youtube 									trailer url", movie duration)
 
-"# Movie-website" 
+ 
