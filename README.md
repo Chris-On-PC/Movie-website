@@ -17,7 +17,7 @@ You will need python 2.7 to run this code.
 Python can be installed from the python default website. 
 
 
-## Running the tests
+## Initializing a new movie instance
 
 To run the code, provide the information to your favourite movie to a new instance.
 
@@ -28,6 +28,14 @@ toy_story = media.Movie("Toy Story",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc",
                         81)#movie instance made for Toy Story.
 
- Instance_name = media.Movie("Movie name", "Movie discription", 								"Poster image url", "movie youtube 									trailer url", movie duration)
+ Instance_name = media.Movie("Movie name", 
+ 							"Movie discription", 
+ 							"Poster image url", 
+ 							"movie youtube trailer url", 
+ 							movie duration)
 
+The instances are created by using the classes from the media.py file. The Video class is used as parent class to the Movie class and thus provides the Movie class with basic attributes such as the video name, video description, video image url and the video youtube trailer url. The Movie class allows for the addition of an addition property: movie duration.  
  
+## Running the tests
+
+Once you have added your favorite movie instances to the entertainment_center.py file. You can exectute the progrom by running the entertainment_center.py module through the python IDLE or executing entertainment_center.py through the command prompt. The various movie instances will be provided as an array to the fresh_tomatoes.py file where the html code for your movie website will be built. The fresh_tomatoes.py dynamically generates addition html code for every movie instance provided.   

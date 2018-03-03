@@ -41,12 +41,11 @@ main_page_head = '''
             transition: transform .2s; /* Animation */
              border-radius: 25px;
             border: 2px solid #0d0d0d;
-        
         }
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
-            transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+            transform: scale(1.5);
         }
         .scale-media {
             padding-bottom: 56.25%;
