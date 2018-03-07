@@ -38,4 +38,12 @@ The instances are created by using the classes from the media.py file. The Video
  
 ## Running the tests
 
-Once you have added your favorite movie instances to the entertainment_center.py file. You can exectute the progrom by running the entertainment_center.py module through the python IDLE or executing entertainment_center.py through the command prompt. The various movie instances will be provided as an array to the fresh_tomatoes.py file where the html code for your movie website will be built. The fresh_tomatoes.py dynamically generates addition html code for every movie instance provided.   
+Once you have added your favorite movie instances to the entertainment_center.py file. You can exectute the progrom by running the entertainment_center.py module through the python IDLE or executing entertainment_center.py through the command prompt. The various movie instances will be provided as an array to the fresh_tomatoes.py file where the html code for your movie website will be built. The fresh_tomatoes.py dynamically generates addition html code for every movie instance provided. 
+
+# Running from Python IDLE
+
+Open executing entertainment_center.py in the Python Shell. To do this click open in the top left corner of the shell windown and navigate to the executing entertainment_center.py file. Once the file has been opened in a seperate window, it can be executed by clicking on the "Run" button and then selecting "Run Module". This will execute the file and build your movies website containing your favorite movies. 
+
+# Running from command prompt. 
+
+To execute the program using your command prompt, navigate to the entertainment_center.py file and enter the file name "executing entertainment_center.py" as input. This will execute your code and  build your movies website containing your favorite movies. 
